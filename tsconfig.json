@@ -11,6 +11,7 @@
     "esModuleInterop": true,
     "lib": ["esnext", "dom"],
     "baseUrl": ".",
+    // "types": ["@dcloudio/types", "@uni-helper/uni-app-types", "@uni-helper/uni-ui-types"],
     "paths": {
       "@/*": ["src/*"]
     }

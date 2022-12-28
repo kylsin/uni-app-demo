@@ -1,10 +1,7 @@
-<template>
-  <status-bar />
-  <image :src="logo" mode="scaleToFill" />
-</template>
+<template></template>
 
 <script lang="ts" setup>
-import statusBar from '@/components/status-bar.vue'
-const logo = `../static/logo/${import.meta.env.VITE_APP_LOGO}`
+import un from '@uni-helper/uni-network'
+un.get('http://t.weather.sojson.com/api/weather/city/101030100')
 </script>
 <style scoped lang="scss"></style>
